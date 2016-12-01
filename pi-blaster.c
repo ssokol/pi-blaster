@@ -66,7 +66,7 @@ static uint8_t known_pins[MAX_CHANNELS] = {
 // Create a list of reserved GPIO pins
 // http://elinux.org/RPi_Low-level_peripherals
 static uint8_t banned_pins[MAX_CHANNELS] = {
-		6,      	// On Model B, it is in use for the Ethernet function
+//		6,      	// On Model B, it is in use for the Ethernet function
 		28,		// board ID and are connected to resistors R3 to R10 (only on Rev1.0 boards).
 		29,		// board ID and are connected to resistors R3 to R10 (only on Rev1.0 boards).
 		30,		// board ID and are connected to resistors R3 to R10 (only on Rev1.0 boards).
